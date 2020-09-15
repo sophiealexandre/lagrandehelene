@@ -1,0 +1,11 @@
+<h1><%= @creations.nom %></h1>
+<p><%= @creations.description %></p>
+<p><%= @creations.difficulte %></p>
+<% if @creations.avatar.attached? %>
+  <img src="<%= (url_for(@creations.avatar)) %>" alt="Orange" />
+<% end %>
+<%= link_to 'Retour', creations_path %>
+<% if user_signed_in? %>
+  <%= link_to 'Delete', [:creation], method: :delete %>
+  <%= link_to 'Change', edit_creation_path %>
+<% end %>

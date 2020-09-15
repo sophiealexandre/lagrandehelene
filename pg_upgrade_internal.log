@@ -1,0 +1,17 @@
+
+-----------------------------------------------------------------
+  pg_upgrade run on Mon Sep 14 17:54:10 2020
+-----------------------------------------------------------------
+
+You must identify the directory where the old cluster binaries reside.
+Please use the -b command-line option or the PGBINOLD environment variable.
+Running in verbose mode
+
+-----------------------------------------------------------------
+  pg_upgrade run on Mon Sep 14 17:56:17 2020
+-----------------------------------------------------------------
+
+Performing Consistency Checks
+-----------------------------
+Checking cluster versions                                   ok
+The source cluster was not shut down cleanly.
