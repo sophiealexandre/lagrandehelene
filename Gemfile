@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
-
+gem 'webpacker', '~> 5.x'
 gem 'devise'
 gem 'popper_js', '~> 1.11', '>= 1.11.1'
 gem 'jquery-rails'
