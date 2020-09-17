@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node module.js"
+},
   "name": "la-grande-helene",
   "private": true,
   "dependencies": {
