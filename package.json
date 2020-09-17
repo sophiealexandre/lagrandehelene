@@ -1,8 +1,8 @@
+{
 "scripts": {
   "test": "make test",
   "start": "node index.js"
-}
-{
+},
   "name": "la-grande-helene",
   "private": true,
   "dependencies": {
