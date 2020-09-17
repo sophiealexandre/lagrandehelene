@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+      "start": "echo \"No node file to run\" && exit 0"
   }
 }
